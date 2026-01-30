@@ -1,27 +1,45 @@
 # Password Strength Checker
-# This program checks how strong a password is
-# It checks length, numbers, and special characters
+# This program checks password strength .
+#  guides the user to improve it
 
 password = input("Enter your password: ")
 
-# Check the length of the password
-password_length = len(password)
+# Rule 1: No spaces allowed
+if " " in password:
+    print("Invalid password: Spaces are not allowed.")
+    print("Please enter a password without spaces.")
+    exit()
 
-# Flags to check conditions
+# Rule 2: Password length must be exactly 8
+if len(password) != 8:
+    print("Invalid password length.")
+    print("Password must be exactly 8 characters long.")
+    exit()
+
+# Flags to track character types
+has_letter = False
 has_number = False
 has_special_char = False
 
-# Go through each character in the password
+# Check each character in the password
 for char in password:
-    if char.isdigit():
+    if char.isalpha():
+        has_letter = True
+    elif char.isdigit():
         has_number = True
-    elif not char.isalnum():
+    else:
         has_special_char = True
 
-# Decide password strength
-if password_length >= 8 and has_number and has_special_char:
-    print("Strong password")
-elif password_length >= 6:
-    print("Moderate password")
+# Final validation with user-friendly messages
+if has_letter and has_number and has_special_char:
+    print("Strong password ")
 else:
-    print("Weak password")
+    print("Weak password ")
+    print("To make your password strong, include:")
+    
+    if not has_letter:
+        print("- At least one letter (a-z or A-Z)")
+    if not has_number:
+        print("- At least one number (0-9)")
+    if not has_special_char:
+        print("- At least one special character (!, @, #, etc.)")
