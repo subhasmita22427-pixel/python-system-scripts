@@ -1,0 +1,7 @@
+INFO Application started successfully
+WARNING Disk usage is above 70 percent
+ERROR Failed to connect to database
+INFO User logged in
+ERROR Timeout while accessing server
+WARNING Memory usage is high
+INFO Application shutdown complete
