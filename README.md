@@ -15,7 +15,6 @@ It focuses on validating common password rules and handling typical user mistake
 * Provides clear feedback on how to improve weak passwords
 
 ## Technologies Used
-
 * Python 3
 * Basic string operations
 * Conditional statements
@@ -32,7 +31,4 @@ This script was built to practice:
 
 
 
-
-
-You’re on the right path.
 

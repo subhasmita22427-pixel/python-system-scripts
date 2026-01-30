@@ -1,6 +1,8 @@
 # Password Strength Checker
 # This program checks password strength .
 #  guides the user to improve it
+# This program checks password strength and guides the user to improve it
+
 
 password = input("Enter your password: ")
 
