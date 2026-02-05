@@ -1,32 +1,40 @@
 # Python System Scripts
 
-This repository contains Python utility scripts built to strengthen fundamentals
-and understand real-world automation using Python.
+This repository contains Python utility scripts built to strengthen core programming fundamentals and demonstrate how Python is used in real-world automation tasks.
 
 ## Current Projects
 
 ### 1. Password Strength Checker
-A command-line tool that validates passwords based on:
+A command-line utility that evaluates password strength based on:
 - Length constraints
 - Presence of letters, digits, and special characters
-- Disallows spaces and weak-only inputs
+- Rejection of spaces and weak-only inputs
 
-Helps users understand why a password is weak and how to improve it.
+The script clearly explains why a password is weak and guides users on how to improve it.
 
 ### 2. Smart Log File Analyzer
-A utility that reads log files and analyzes:
-- Error messages
-- Warning messages
-- Informational logs
+A utility that processes log files and generates a concise report by counting:
+- ERROR messages
+- WARNING messages
+- INFO messages
 
-Generates a clean summary report to help understand system behavior.
+This helps in understanding system behavior and identifying potential issues quickly.
+
+### 3. Search and Sort Utility
+A menu-driven program that performs common data operations such as:
+- Searching for elements in a list
+- Sorting numbers in ascending and descending order
+- Separating even and odd numbers
+- Finding multiples of a user-defined number
+
+Focuses on implementing logic without relying on shortcuts.
 
 ## Purpose
-This repository is updated incrementally as new utilities are built.
-Each script focuses on clarity, correctness, and real-world usage.
+This repository is developed incrementally as new utilities are added.
+Each script emphasizes clean code, proper input validation, and practical use cases.
 
 ## Tech Used
 - Python 3
 - File handling
-- Basic data processing
+- Data validation and processing
 - Command-line interaction
