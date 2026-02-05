@@ -1,34 +1,32 @@
-# Password Strength Checker
+# Python System Scripts
 
-## Overview
-This project is a simple Python utility that checks the strength of a user’s password.
-It focuses on validating common password rules and handling typical user mistakes in a clear and user-friendly way.
+This repository contains Python utility scripts built to strengthen fundamentals
+and understand real-world automation using Python.
 
-## Features
-* Accepts password input from the user
-* Enforces password length rules
-* Checks for:
-  * Letters
-  * Numbers
-  * Special characters
-* Rejects passwords containing blank spaces
-* Provides clear feedback on how to improve weak passwords
+## Current Projects
 
-## Technologies Used
-* Python 3
-* Basic string operations
-* Conditional statements
-* Loops
+### 1. Password Strength Checker
+A command-line tool that validates passwords based on:
+- Length constraints
+- Presence of letters, digits, and special characters
+- Disallows spaces and weak-only inputs
 
-## Why This Project
-Password validation is a common real-world requirement in applications and systems.
-This script was built to practice:
+Helps users understand why a password is weak and how to improve it.
 
-* Input validation
-* Handling edge cases
-* Writing clean and readable Python code
-* Thinking about user experience, not just logic
+### 2. Smart Log File Analyzer
+A utility that reads log files and analyzes:
+- Error messages
+- Warning messages
+- Informational logs
 
+Generates a clean summary report to help understand system behavior.
 
+## Purpose
+This repository is updated incrementally as new utilities are built.
+Each script focuses on clarity, correctness, and real-world usage.
 
-
+## Tech Used
+- Python 3
+- File handling
+- Basic data processing
+- Command-line interaction
